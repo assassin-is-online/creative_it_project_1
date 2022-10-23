@@ -1,26 +1,31 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
 }
-li{
+
+li {
     list-style: none;
 
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
-    
+
 }
-.container{
+
+.container {
     width: 1170px;
     margin: auto;
 
 }
+
 /* Common css end */
 
 
@@ -28,36 +33,75 @@ a{
 
 #navbar .container {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     margin-top: 33px;
     align-items: center;
 }
-#navbar .container .logo{
+
+#navbar .container .logo {
     width: 115.21px;
     height: 83px;
     display: block;
 }
-#navbar .container .link{
+
+#navbar .container .link {
     height: 32px;
     width: 504px;
 
 
 }
-#navbar .container .link ul{
+
+#navbar .container .link ul {
     display: flex;
     justify-content: space-between;
     line-height: 32px;
 }
-#navbar .container .link ul a{
+
+#navbar .container .link ul a {
     font-weight: 500;
     font-size: 18px;
     color: #181818;
+    position: relative;
+    transition: .4s;
 
 }
-#navbar .container .button a{
+
+#navbar .container .button a {
     text-align: center;
     background-color: #ffff;
+    color: #5956E8;
     border: 1px solid #5956E8;
     padding: 13px 24px;
     border-radius: 10px;
+    transition: .4s;
+}
+
+#navbar .container .button a:hover {
+    background-color: #5956E8;
+    color: #fff;
+}
+
+#navbar .container .link ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #5956E8;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: .4s;
+}
+
+#navbar .container .link ul li a:hover::before {
+    opacity: 1;
+    bottom: -20px;
+    color: #5956E8;
+}
+
+#navbar .container .link ul li a:hover {
+    color: #5956E8;
 }
