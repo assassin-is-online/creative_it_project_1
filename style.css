@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+/* Common css end */
+
+
+/* Navbar start */
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 33px;
+    align-items: center;
+}
+#navbar .container .logo{
+    width: 115.21px;
+    height: 83px;
+    display: block;
+}
+#navbar .container .link{
+    height: 32px;
+    width: 504px;
+
+
+}
+#navbar .container .link ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 32px;
+}
+#navbar .container .link ul a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #181818;
+
+}
+#navbar .container .button a{
+    text-align: center;
+    background-color: #ffff;
+    border: 1px solid #5956E8;
+    padding: 13px 24px;
+    border-radius: 10px;
+}
