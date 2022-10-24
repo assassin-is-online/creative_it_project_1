@@ -156,19 +156,21 @@ a {
     border-radius: 10px;
 
 }
+
 /* Banner end */
 
 /* Service start */
-#services{
+#services {
     margin-top: 100px;
 }
 
-#services .container h3{
+#services .servicestart h3 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
-#services .container p{
+
+#services .servicestart p {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -177,8 +179,49 @@ a {
     margin: 0 auto;
 }
 
-#services .floatdiclear{
+#services .floatdiclear {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#services .floatdiclear .item {
+    padding: 63px 48px;
+    width: 370px;
+    height: 385px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: #E3E3E3 1px solid;
+    transition: .4s;
+
+}
+
+#services .floatdiclear .item i {
+    height: 71px;
+    width: 71px;
+    border: #5956E8 1px solid;
+    color: #5956E8;
+    text-align: center;
+    line-height: 71px;
+    border-radius: 10px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+#services .floatdiclear .item h3 {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#services .floatdiclear .item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 20px;
 }
 
 
