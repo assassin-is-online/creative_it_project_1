@@ -35,7 +35,9 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 33px;
+    margin-bottom: 33px;
     align-items: center;
+
 }
 
 #navbar .container .logo {
@@ -105,3 +107,79 @@ a {
 #navbar .container .link ul li a:hover {
     color: #5956E8;
 }
+
+/* Banner start */
+
+#banner {
+
+    background-color: #5956E8;
+}
+
+#banner .container {
+    padding: 182px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#banner .container .info {
+    width: 542px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#banner .container .info h3 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+#banner .container .info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#banner .container .info a {
+    text-align: center;
+    background-color: #ffff;
+    color: #5956E8;
+    font-weight: 500;
+    padding: 13px 24px;
+    border-radius: 10px;
+
+}
+/* Banner end */
+
+/* Service start */
+#services{
+    margin-top: 100px;
+}
+
+#services .container h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+#services .container p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 542px;
+    margin: 0 auto;
+}
+
+#services .floatdiclear{
+    display: flex;
+}
+
+
+/* Service end */
