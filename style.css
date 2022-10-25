@@ -237,3 +237,116 @@ a {
 
 
 /* Service end */
+
+/* Start of port-folio */
+
+#portfolio .info h3{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+#portfolio .info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    width: 542px;
+    margin: 0 auto;
+}
+
+#portfolio .listnav{
+    width: 800px;
+    height: 70px;
+    background-color: rgba(86, 84, 232, 0.05);
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#portfolio .listnav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+#portfolio .listnav ul li{
+    line-height: 70px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #181818;
+        transition: .4s;
+        position: relative;
+}
+#portfolio .listnav ul li::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) scaleX(0);
+    height: 3px;
+    width: 100%;
+    background-color: #5956E8;
+    transition: .4s;
+}
+
+#portfolio .listnav ul li:hover::before{
+    color: #5956E8;
+    transform: translateX(-50%) scaleX(1);
+
+}
+#portfolio .listnav ul li:hover{
+    color: #5956E8;
+}
+#portfolio .container .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#portfolio .container .main .fullitem{
+    height: 319px;
+    width: 270px;
+    
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+#portfolio .container .main .fullitem img{
+    width: 100%;
+}
+
+#portfolio .container .main .fullitem .infoabout{
+    height: 113px;
+    width: 230px;
+    background-color: #5956E8;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: 0.4s;
+    bottom: 0;
+    margin-bottom: 19px;
+    text-align: center;
+    padding: 24px;
+}
+#portfolio .container .main .fullitem:hover .infoabout{
+    transform:translateX(-50%) scale(1);
+}
+#portfolio .container .main .fullitem .infoabout h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 27px
+}
+#portfolio .container .main .fullitem .infoabout p{
+    font-weight: 400 ;
+    font-size: 16px;
+    color: #fff;
+    line-height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#portfolio .container .main .fullitem .infoabout i{
+    color: #fff;
+    line-height: 27px;
+}
+
+/* End of port-folio */
